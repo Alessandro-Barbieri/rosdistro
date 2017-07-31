@@ -443,6 +443,7 @@ couchdb:
   ubuntu: [couchdb]
 cppcheck:
   debian: [cppcheck]
+  gentoo: [dev-util/cppcheck]
   ubuntu: [cppcheck]
 cppunit:
   arch: [cppunit]
@@ -1850,6 +1851,7 @@ libiw-dev:
   ubuntu: [libiw-dev]
 libjack-dev:
   debian: [libjack-dev]
+  gentoo: [virtual/jack]
   ubuntu: [libjack-dev]
 libjackson-json-java:
   debian: [libjackson-json-java]
@@ -3148,6 +3150,7 @@ libxml2:
   ubuntu: [libxml2-dev]
 libxml2-utils:
   debian: [libxml2-utils]
+  gentoo: [dev-libs/libxml2]
   ubuntu: [libxml2-utils]
 libxmu-dev:
   arch: [libxmu]
@@ -4316,7 +4319,7 @@ udhcpc:
 uncrustify:
   debian: [uncrustify]
   fedora: [uncrustify]
-  gentoo: [uncrustify]
+  gentoo: [dev-util/uncrustify]
   ubuntu: [uncrustify]
 unison:
   arch: [unison]
@@ -4604,7 +4607,7 @@ zeromq3:
   arch: [zeromq3]
   debian: [libzmq3-dev]
   fedora: [zeromq3]
-  gentoo: [zeromq]
+  gentoo: [net-libs/zeromq]
   ubuntu: [libzmq3-dev]
 zlib:
   arch: [zlib]
